@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #b5e0ff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex: 50%;
+    padding: 30px;
+    padding-left: 40px;
+    border-left: 3px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.left {
+    padding: 20px;
+    text-align: center;
+}
+
+.image {
+    justify-items: center;
+    border-radius: 40px;
+    border: 2px solid #e8e0f7;
+}
+
+.email {
+    border: 1px solid rgba(171, 233, 239, 0.5);
+    background-color: rgba(10, 19, 114, 0.1); 
+    border-radius: 10px; /* Rounded border */
+    padding: 10px; /* Add some padding for better spacing */
+    transition: transform 0.3s; /* Add a smooth transition for zoom effect */
+    margin-bottom: 20px; /* Add bottom margin to create space between email and phone */
+}
+
+.phone {
+    border: 1px solid rgba(171, 233, 239, 0.5); /* Pastel color border with transparency */
+    background-color: rgba(10, 19, 114, 0.1); /* Pastel color background with transparency */
+    border-radius: 10px; /* Rounded border */
+    padding: 10px; /* Add some padding for better spacing */
+    transition: transform 0.3s; /* Add a smooth transition for zoom effect */
+}
+
+.info-line {
+    border: 1px solid rgba(171, 233, 239, 0.5); /* Pastel color border with transparency */
+    background-color: rgba(10, 19, 114, 0.1); /* Pastel color background with transparency */
+    border-radius: 5px; /* Rounded border */
+    padding: 10px; /* Add some padding for better spacing */
+    transition: transform 0.3s; /* Add a smooth transition for zoom effect */
+    margin-bottom: 20px; /* Add bottom margin to create space between lines */
+}
+
+.navbar {
+    background-color: #220e7c; /* Background color for the navbar */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
